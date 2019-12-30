@@ -16,6 +16,9 @@ else:
 	for x in range(num_to_print): 
 		print(all_words[x])
 
+	for y in range(num_to_print-1, -1, -1): 
+		print(all_words[y])
+
 	lst = all_words[:num_to_print]
 	for x in range(len(lst)): 
 		print("------- " + lst[x])
