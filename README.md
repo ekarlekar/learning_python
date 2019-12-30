@@ -15,3 +15,4 @@
 	- forward
 	- backward
 	- forwardsbackwards (smushed)
+	- suck
