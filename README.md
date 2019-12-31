@@ -16,3 +16,10 @@
 	- backward
 	- forwardsbackwards (smushed)
 	- suck
+
+## testing 
+
+to run tests:  
+```
+$ pytest 
+``` 
