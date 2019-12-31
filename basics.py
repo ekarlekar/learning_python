@@ -32,3 +32,8 @@ def to_test(x):
 	else: 
 		return 7
 
+def building_on_to_test(x): 
+	if(to_test(x) < 30): 
+		return 3
+	else: 
+		return 4
