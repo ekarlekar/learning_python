@@ -20,7 +20,8 @@ $ python3 project1.py
 	- forward
 	- backward
 	- forwardsbackwards (smushed)
-	- suck
+	- suck  
+	
 to run project2:  
 ```
 $ python3 project2.py
