@@ -31,7 +31,7 @@ to run project2:
 ```
 $ python3 project2.py
 ``` 
-###test on project1:
+### test on project1:
 
 *file name:* test_project1.py  
 **decscription**   
@@ -42,7 +42,7 @@ $ python3 project2.py
 		- spaces for both the list and the word
 		- blanks for both the list and the word
 
-###test on project2:
+### test on project2:
 *file name:* test_project2.py  
 **decscription**   
 	I ran four test which tested the methods *create_rev_array*, *create_smoosh_array*, *create_decoded_array*, and a combination of all 3. 
