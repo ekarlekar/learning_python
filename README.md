@@ -7,6 +7,11 @@
 - print what it matches 
 **luh mao** *this ugly as heck*
 
+to run project1:  
+```
+$ python3 project1.py
+``` 
+
 ## second part  
 
 - select five words at random  
@@ -16,20 +21,15 @@
 	- backward
 	- forwardsbackwards (smushed)
 	- suck
-
+to run project2:  
+```
+$ python3 project2.py
+``` 
 ## testing 
 
 to run tests:  
 ```
 $ pytest 
-``` 
-to run project1:  
-```
-$ python3 project1.py
-``` 
-to run project2:  
-```
-$ python3 project2.py
 ``` 
 ### test on project1:
 
