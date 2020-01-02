@@ -47,7 +47,7 @@ $ python3 project2.py
 **decscription**   
 	I ran four test which tested the methods *create_rev_array*, *create_smoosh_array*, *create_decoded_array*, and a combination of all 3. 
 
-	the test that tested all 3 decoded a smooshed array made from a certain list and verified that it equaled itself in the end
+the test that tested all 3 decoded a smooshed array made from a certain list and verified that it equaled itself in the end
 
 
  
