@@ -9,7 +9,7 @@ def main():
 	print(s)
 	print(create_rev_array(s))
 	print(create_smoosh_array(s))
-	print(create_decoded_array(s))
+	print(create_decoded_array(create_smoosh_array(s)))
 
 def og_array(n, words):
 	s = '' 
@@ -30,8 +30,7 @@ def create_smoosh_array(s):
 	return finalarr
 
 def create_decoded_array(s):
-	finarr = create_smoosh_array(s)
-	decodedarr = [finarr[x] for x in range(0, len(finarr), 2)] #decode
+	decodedarr = [s[x] for x in range(0, len(s), 2)] #decode
 	return "".join(decodedarr)
 
 if __name__ == '__main__':
