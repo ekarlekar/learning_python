@@ -34,3 +34,5 @@ def create_decoded_array(s):
 	decodedarr = [finarr[x] for x in range(0, len(finarr), 2)] #decode
 	return "".join(decodedarr)
 
+if __name__ == '__main__':
+	main()
