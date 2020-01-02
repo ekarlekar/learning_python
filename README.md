@@ -36,16 +36,16 @@ $ python3 project2.py
 *file name:* test_project1.py  
 
 **decscription**   
-	I ran one test which tested the method find_words, with cases including:
-		- where the list has words that contain the word
-		- where the list has some elements that contain the word and some that do not
-		- where the list does not contain the word
-		- spaces for both the list and the word
-		- blanks for both the list and the word
+I ran one test which tested the method find_words, with cases including:
+- where the list has words that contain the word  
+- where the list has some elements that contain the word and some that do not
+- where the list does not contain the word
+- spaces for both the list and the word
+- blanks for both the list and the word
 
 ### test on project2:
 *file name:* test_project2.py
-  
+
 **decscription**   
 	I ran four test which tested the methods *create_rev_array*, *create_smoosh_array*, *create_decoded_array*, and a combination of all 3. 
 
