@@ -1,23 +1,36 @@
 import cmd
 import random
 
-with open('words.txt') as f:
-		all_words = f.readlines()
+def main():
+	with open('words.txt') as f:
+			all_words = f.readlines()
+	all_words = [x.strip('\n') for x in all_words]
+	s = og_array(5,all_words)
+	print(s)
+	print(create_rev_array(s))
+	print(create_smoosh_array(s))
+	print(create_decoded_array(s))
 
-all_words = [x.strip('\n') for x in all_words]
+def og_array(n, words):
+	s = '' 
+	for x in range(n): #og
+		theword = random.choice(words)
+		print(theword)
+		s+= theword
+	return s
 
-s = '' 
-for x in range(5): #og
-	theword = random.choice(all_words)
-	print(theword)
-	s+= theword
-print(s)
 
-revarr = [s[x] for x in range(len(s)-1, -1, -1)] #reverse
-print("".join(revarr))
+def create_rev_array(s):
+	revarr = [s[x] for x in range(len(s)-1, -1, -1)] #reverse
+	return "".join(revarr)
 
-finalarr = "".join([s[x]+revarr[x] for x in range(len(s))]) #smoosh
-print(finalarr)
+def create_smoosh_array(s):
+	revarr = create_rev_array(s)
+	finalarr = "".join([s[x]+ revarr[x] for x in range(len(s))]) #smoosh
+	return finalarr
 
-decodedarr = [finalarr[x] for x in range(0, len(finalarr), 2)] #decode
-print("".join(decodedarr))
+def create_decoded_array(s):
+	finarr = create_smoosh_array(s)
+	decodedarr = [finarr[x] for x in range(0, len(finarr), 2)] #decode
+	return "".join(decodedarr)
+
